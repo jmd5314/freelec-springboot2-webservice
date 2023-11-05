@@ -4,7 +4,6 @@ import com.jojoldu.book.domain.posts.Posts;
 import com.jojoldu.book.domain.posts.PostsRepository;
 import com.jojoldu.book.web.Dto.PostsSaveRequestDto;
 import com.jojoldu.book.web.Dto.PostsUpdateRequestDto;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
