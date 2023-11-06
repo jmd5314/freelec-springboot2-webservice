@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75dd4175-405b-46e7-bbcb-49483176757d" name="Changes" comment="JPA Auditing으로 생성시간/수동시간 자동화 구현 및 테스트 코드 작성">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+    <list default="true" id="75dd4175-405b-46e7-bbcb-49483176757d" name="Changes" comment="게시물 글 등록 화면 작성">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/Dto/PostsSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/Dto/PostsSaveRequestDto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/Dto/PostsSaveRequestDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/Dto/PostsSaveRequestDto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/domain/posts/PostsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/service/posts/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +46,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -228,7 +229,7 @@
       <workItem from="1699198290708" duration="1231000" />
       <workItem from="1699200719448" duration="2807000" />
       <workItem from="1699248228873" duration="1363000" />
-      <workItem from="1699250947381" duration="6835000" />
+      <workItem from="1699250947381" duration="7879000" />
     </task>
     <task id="LOCAL-00001" summary="테스트 코드 작성">
       <created>1698992882945</created>
@@ -251,7 +252,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699203519703</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="게시물 글 등록 화면 작성">
+      <created>1699258105172</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1699258105172</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +269,8 @@
     <MESSAGE value="테스트 코드 작성" />
     <MESSAGE value="Post 등록, 수정, 삭제, 테스트 코드 작성" />
     <MESSAGE value="JPA Auditing으로 생성시간/수동시간 자동화 구현 및 테스트 코드 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="JPA Auditing으로 생성시간/수동시간 자동화 구현 및 테스트 코드 작성" />
+    <MESSAGE value="게시물 글 등록 화면 작성" />
+    <option name="LAST_COMMIT_MESSAGE" value="게시물 글 등록 화면 작성" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
