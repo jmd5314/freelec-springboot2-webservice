@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75dd4175-405b-46e7-bbcb-49483176757d" name="Changes" comment="JPA Auditing으로 생성시간/수동시간 자동화 구현 및 테스트 코드 작성" />
+    <list default="true" id="75dd4175-405b-46e7-bbcb-49483176757d" name="Changes" comment="JPA Auditing으로 생성시간/수동시간 자동화 구현 및 테스트 코드 작성">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/Dto/PostsSaveRequestDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/Dto/PostsSaveRequestDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -38,9 +44,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -51,7 +57,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2XeDUfWo6iBtL4R2fxga3opF71m" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -74,7 +82,7 @@
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.17&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;b39d1026a44c7dd85c32ac06180fa4a4&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -87,7 +95,12 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\jmd53\Documents\GitHub\freelec-springboot2-webservice\src\main\resources\static\js\app" />
+      <recent name="C:\Users\jmd53\Documents\GitHub\freelec-springboot2-webservice\src\main\resources\templates" />
+    </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.jojoldu.book.web" />
       <recent name="com.jojoldu.book.springboot.web.Dto" />
       <recent name="com.jojoldu.book.springboot.web" />
     </key>
@@ -99,8 +112,8 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PostsRepositoryTest.BaseTimeEntity_등록">
-    <configuration name="PostsApiControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.Application (1)">
+    <configuration name="IndexControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot2-webservice.test" />
       <extension name="coverage">
         <pattern>
@@ -109,7 +122,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.jojoldu.book.web" />
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.web.PostsApiControllerTest" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.web.IndexControllerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -184,11 +197,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PostsRepositoryTest.BaseTimeEntity_등록" />
         <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="JUnit.IndexControllerTest" />
+        <item itemvalue="JUnit.PostsRepositoryTest.BaseTimeEntity_등록" />
         <item itemvalue="JUnit.PostsApiControllerTest.Posts_수정된다" />
         <item itemvalue="JUnit.PostsRepositoryTest" />
-        <item itemvalue="JUnit.PostsApiControllerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -214,6 +227,8 @@
       <workItem from="1699189798348" duration="1202000" />
       <workItem from="1699198290708" duration="1231000" />
       <workItem from="1699200719448" duration="2807000" />
+      <workItem from="1699248228873" duration="1363000" />
+      <workItem from="1699250947381" duration="6835000" />
     </task>
     <task id="LOCAL-00001" summary="테스트 코드 작성">
       <created>1698992882945</created>
