@@ -69,7 +69,6 @@ let main = {
             alert(JSON.stringify(error));
         });
     }
-
 };
 
 main.init();
