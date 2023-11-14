@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="75dd4175-405b-46e7-bbcb-49483176757d" name="Changes" comment="전체 게시물 조회 화면 만들기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/IndexController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/com/jojoldu/book/domain/PostsRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/jojoldu/book/domain/PostsRepositoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/service/posts/PostsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/IndexController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/PostsApiController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/PostsApiController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -237,7 +231,8 @@
       <workItem from="1699265196461" duration="4102000" />
       <workItem from="1699470150569" duration="594000" />
       <workItem from="1699981564397" duration="1829000" />
-      <workItem from="1699983437657" duration="2242000" />
+      <workItem from="1699983437657" duration="2277000" />
+      <workItem from="1699985823813" duration="573000" />
     </task>
     <task id="LOCAL-00001" summary="테스트 코드 작성">
       <created>1698992882945</created>
