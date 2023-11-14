@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="75dd4175-405b-46e7-bbcb-49483176757d" name="Changes" comment="게시물 글 등록 화면 작성">
+    <list default="true" id="75dd4175-405b-46e7-bbcb-49483176757d" name="Changes" comment="전체 게시물 조회 화면 만들기">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/Dto/PostsSaveRequestDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/Dto/PostsSaveRequestDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/domain/posts/PostsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/domain/posts/PostsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/jojoldu/book/domain/PostsRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/jojoldu/book/domain/PostsRepositoryTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/service/posts/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,33 +132,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostsApiControllerTest.Posts_수정된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PostTest.빌더" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="freelec-springboot2-webservice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.web.*" />
+          <option name="PATTERN" value="com.jojoldu.book.domain.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jojoldu.book.web" />
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.web.PostsApiControllerTest" />
-      <option name="METHOD_NAME" value="Posts_수정된다" />
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.domain.PostTest" />
+      <option name="METHOD_NAME" value="빌더" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PostsRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="freelec-springboot2-webservice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.jojoldu.book.domain.posts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.jojoldu.book.domain.posts" />
-      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.domain.posts.PostsRepositoryTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -171,6 +159,22 @@
       <option name="PACKAGE_NAME" value="com.jojoldu.book.domain" />
       <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.domain.PostsRepositoryTest" />
       <option name="METHOD_NAME" value="BaseTimeEntity_등록" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PostsRepositoryTest.게시글_저장_불러오기" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="freelec-springboot2-webservice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.domain.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.domain" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.domain.PostsRepositoryTest" />
+      <option name="METHOD_NAME" value="게시글_저장_불러오기" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -199,10 +203,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.Application (1)" />
+        <item itemvalue="JUnit.PostsRepositoryTest.게시글_저장_불러오기" />
+        <item itemvalue="JUnit.PostTest.빌더" />
         <item itemvalue="JUnit.IndexControllerTest" />
         <item itemvalue="JUnit.PostsRepositoryTest.BaseTimeEntity_등록" />
-        <item itemvalue="JUnit.PostsApiControllerTest.Posts_수정된다" />
-        <item itemvalue="JUnit.PostsRepositoryTest" />
       </list>
     </recent_temporary>
   </component>
@@ -229,7 +233,11 @@
       <workItem from="1699198290708" duration="1231000" />
       <workItem from="1699200719448" duration="2807000" />
       <workItem from="1699248228873" duration="1363000" />
-      <workItem from="1699250947381" duration="7879000" />
+      <workItem from="1699250947381" duration="9470000" />
+      <workItem from="1699265196461" duration="4102000" />
+      <workItem from="1699470150569" duration="594000" />
+      <workItem from="1699981564397" duration="1829000" />
+      <workItem from="1699983437657" duration="2242000" />
     </task>
     <task id="LOCAL-00001" summary="테스트 코드 작성">
       <created>1698992882945</created>
@@ -259,7 +267,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699258105172</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="전체 게시물 조회 화면 만들기">
+      <created>1699259130944</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1699259130944</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +285,8 @@
     <MESSAGE value="Post 등록, 수정, 삭제, 테스트 코드 작성" />
     <MESSAGE value="JPA Auditing으로 생성시간/수동시간 자동화 구현 및 테스트 코드 작성" />
     <MESSAGE value="게시물 글 등록 화면 작성" />
-    <option name="LAST_COMMIT_MESSAGE" value="게시물 글 등록 화면 작성" />
+    <MESSAGE value="전체 게시물 조회 화면 만들기" />
+    <option name="LAST_COMMIT_MESSAGE" value="전체 게시물 조회 화면 만들기" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
