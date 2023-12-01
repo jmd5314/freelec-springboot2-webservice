@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="75dd4175-405b-46e7-bbcb-49483176757d" name="Changes" comment="전체 게시물 조회 화면 만들기">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/domain/users/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/domain/users/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/domain/users/Users.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/domain/users/Users.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/IndexController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/jojoldu/book/web/IndexController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/static/js/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/static/js/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/com/jojoldu/book/domain/PostsRepositoryTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/com/jojoldu/book/domain/PostsRepositoryTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/service/posts/PostsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/service/posts/PostsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/IndexController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/web/IndexController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/js/app/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+>>>>>>> parent of 9d0082e (게시물 삭제)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,10 +243,14 @@
       <workItem from="1699265196461" duration="4102000" />
       <workItem from="1699470150569" duration="594000" />
       <workItem from="1699981564397" duration="1829000" />
+<<<<<<< HEAD
       <workItem from="1699983437657" duration="2277000" />
       <workItem from="1699985823813" duration="2424000" />
       <workItem from="1699988349928" duration="297000" />
       <workItem from="1699988720106" duration="1624000" />
+=======
+      <workItem from="1699983437657" duration="2242000" />
+>>>>>>> parent of 9d0082e (게시물 삭제)
     </task>
     <task id="LOCAL-00001" summary="테스트 코드 작성">
       <created>1698992882945</created>
